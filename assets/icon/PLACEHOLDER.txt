@@ -1,0 +1,6 @@
+This folder is ready for your app icon!
+
+Add your icon as: app_icon.png (1024x1024 pixels recommended)
+
+The folder exists now, so the warning in pubspec.yaml will go away after you run:
+flutter pub get
