@@ -1,16 +1,60 @@
-# aakar_app
+# Akaar App
 
-A new Flutter project.
+Akaar is a cross-platform Flutter application built for Android, iOS, Web, and Desktop platforms. The project provides a scalable structure and clean foundation for building modern mobile and web applications.
 
-## Getting Started
+## 🚀 Features
 
-This project is a starting point for a Flutter application.
+- Cross-platform support (Android, iOS, Web, Windows, macOS, Linux)
+- Clean and modular Flutter project structure
+- Responsive UI foundation
+- Ready for feature expansion and integrations
+- Optimized for performance and scalability
 
-A few resources to get you started if this is your first Flutter project:
+## 🧩 Project Structure
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+├── android/   — Android native code  
+├── ios/       — iOS native code  
+├── web/       — Web configuration  
+├── macos/     — macOS desktop support  
+├── windows/   — Windows desktop support  
+├── linux/     — Linux desktop support  
+├── lib/       — Main Flutter application code  
+├── assets/    — Images and resources  
+├── test/      — Unit and widget tests  
+├── pubspec.yaml — Dependencies and configuration  
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🛠️ Getting Started
+
+### Prerequisites
+
+- Flutter SDK (v3.0+)
+- Android Studio / Xcode (for mobile builds)
+- Enabled Flutter platforms as required
+
+### Install Dependencies
+
+flutter pub get
+
+### Run the App
+
+Android:
+flutter run -d android
+
+iOS:
+flutter run -d ios
+
+Web:
+flutter run -d chrome
+
+Desktop:
+flutter run -d windows
+flutter run -d macos
+flutter run -d linux
+
+## 🧪 Testing
+
+flutter test
+
+## 📄 License
+
+This project is open-source and available under the MIT License.
